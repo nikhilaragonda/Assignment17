@@ -1,0 +1,42 @@
+.main{
+    background-color: rgb(252, 249, 249);
+    display: grid;
+    grid-template-areas: 
+    'area1 area2 area3' 
+    'area1 area5 area6' 
+    'area4 area5 area7';
+    gap: 10px;
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+    justify-items: center;
+}
+.img1{ 
+    grid-area: area1;
+    
+}
+.img2{
+    grid-area: area2;
+   
+}
+.img3{
+    grid-area: area3;
+   
+}
+.img4{
+    grid-area: area4;
+    
+}
+
+.img5{
+    grid-area: area5;
+   
+}
+.img6{
+    grid-area: area6;
+    
+}
+.img7{
+    grid-area: area7;
+   
+}
